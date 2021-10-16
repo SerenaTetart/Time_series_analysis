@@ -68,8 +68,12 @@ Then we calculate the moving average based on a sliding window *L* :
 
 The seasonality indicates that there is an even more rising trend toward january and june.
 
+(I'll finish to write this tomorrow...)
+
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end, why 20 ? Because it predicts the next 20 values of the time serie, it could have been less or more...
 This change has been made in order to have a more accurate prediction, whereas if it predicts only the next value it can easily overfit.
+
+(I'll finish to write this tomorrow...)
 
 ## Project 2 - ARIMA
 
