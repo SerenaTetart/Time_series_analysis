@@ -73,4 +73,4 @@ A non-stationary serie is a serie that does not depend on time (just like the st
 
 ## Project 3 - Anomaly Detection
 
-This third project aims to detect in a given time serie the anomalies using statical models and autoencoder.
+This third project aims to detect in a given time serie the anomalies using statisticals models and autoencoder.
