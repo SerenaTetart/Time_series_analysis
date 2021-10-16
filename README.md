@@ -62,6 +62,10 @@ Then we calculate the moving average based on a sliding window *L* :
 <img src="https://user-images.githubusercontent.com/65224852/137590562-a3c91a8c-3654-499a-b1d5-18b62245142f.PNG">
 </p>
 
+<p align="center"> <b>Bitcoin's Seasonality since 2014</b>
+<img src="https://user-images.githubusercontent.com/65224852/137592003-189d5162-1830-44ca-a075-c6ab8d410f52.png">
+</p>
+
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end, why 20 ? Because it predicts the next 20 values of the time serie, it could have been less or more...
 This change has been made in order to have a more accurate prediction, whereas if it predicts only the next value it can easily overfit.
 
