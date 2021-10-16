@@ -56,7 +56,7 @@ The trend is a centered moving average, first we remove the mean by dividing eac
 <img src="https://user-images.githubusercontent.com/65224852/137590297-3f2141d4-e763-4cf6-b3d2-43e1639dd7b3.PNG">
 </p>
 
-Then we calculate the moving average based on a window *L* :
+Then we calculate the moving average based on a sliding window *L* :
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/137590562-a3c91a8c-3654-499a-b1d5-18b62245142f.PNG">
