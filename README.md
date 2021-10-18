@@ -3,7 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Requirements](#requirements)
-* [Project 1: Bitcoin Prediction with LSTM](#project-1---Bitcoin-Prediction-with-LSTM)
+* [Project 1: Bitcoin Forecast with LSTM](#project-1---Bitcoin-Forecast-with-LSTM)
 * [Project 2: ARIMA](#Project-2---ARIMA)
 * [Project 3: Anomaly Detection](#Project-3---Anomaly-Detection)
 
@@ -20,7 +20,7 @@ Libraries:
 * Keras
 * Pandas
 
-## Project 1 - Bitcoin Prediction with LSTM
+## Project 1 - Bitcoin Forecast with LSTM
 
 The dataset used is the market price everyday since 2014, I shared it in the repository.
 
@@ -77,9 +77,9 @@ This change has been made in order to have a more accurate prediction, whereas i
 
 ## Project 2 - ARIMA
 
-In this second project we will try to get useful statistics from the data by turning it into a non-stationary serie.
+In this second project we will try to get useful statistics from the data by turning it into a stationary serie.
 
-A non-stationary serie is a serie that does not depend on time (just like the stationary Schrödinger Equation or TISE where the wave function can be expressed only with the spatial part)
+A stationary serie is a serie that does not depend on time (just like the stationary Schrödinger Equation or TISE where the wave function can be expressed only with the spatial part)
 
 ## Project 3 - Anomaly Detection
 
