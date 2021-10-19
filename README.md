@@ -50,6 +50,7 @@ In our case the time serie is multiplicative.
 
 We can clearly see that the trend is constantly rising, with a peak toward 2021.
 
+(statsmodels doesn't exactly do the same calculations, though I suspect the way I describe it to be better)
 The trend is a centered moving average, first we remove the mean by dividing each individual value by the series mean:
 
 <p align="center">
