@@ -53,7 +53,7 @@ We can clearly see that the trend is constantly rising, with a peak toward 2021.
 The Trend is calculated based on the moving average with a sliding window *L* :
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65224852/137590562-a3c91a8c-3654-499a-b1d5-18b62245142f.PNG">
+<img src="https://user-images.githubusercontent.com/65224852/137881530-f5e11af9-661a-46e6-9943-573de48c4e52.PNG">
 </p>
 
 <p align="center"> <b>Bitcoin's Seasonality since 2014</b>
