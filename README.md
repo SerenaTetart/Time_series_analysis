@@ -71,7 +71,7 @@ In order to get the seasonality and the noise we need to refer to the multiplica
 Then in order to isolate the seasonality we calculate the moving average based on one year (could be one month) of our last formula:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65224852/137873111-e6f5f9cc-d2b4-4247-93f8-63ca83aa2c78.PNG">
+<img src="https://user-images.githubusercontent.com/65224852/137884804-207fd775-30ec-41a4-8a0e-2355c2eee62b.PNG">
 </p>
 
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end in order to predict the next 20 values of the time serie.
