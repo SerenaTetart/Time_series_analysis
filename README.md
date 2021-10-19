@@ -71,7 +71,7 @@ The seasonality indicates that there is a rising trend toward January and June a
 Seasonality is the difference between the centered actual value and the trend:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65224852/137872819-63cfd725-05e0-488e-9d87-b05a623443bd.PNG">
+<img src="https://user-images.githubusercontent.com/65224852/137873111-e6f5f9cc-d2b4-4247-93f8-63ca83aa2c78.PNG">
 </p>
 
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end in order to predict the next 20 values of the time serie.
