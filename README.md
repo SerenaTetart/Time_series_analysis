@@ -78,8 +78,6 @@ Seasonality is the difference between the centered actual value and the trend:
 
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end in order to predict the next 20 values of the time serie.
 
-(I'll finish to write this tomorrow...)
-
 ## Project 2 - ARIMA
 
 In this second project we will try to get useful statistics from the data by turning it into a stationary serie.
