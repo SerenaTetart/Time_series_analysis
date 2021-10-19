@@ -82,6 +82,20 @@ Finally we calculate the noise by dividing the seasonal noise by the seasonal co
 
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end in order to predict the next 20 values of the time serie.
 
+Sadly the forecasts are quite imprecise, this is because there is a lot of noise and actions or cryptocurrencies price depends on a lot of factors that a time serie alone can not represent.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/137901683-21a6b4e1-601a-4a05-b384-7abe1c8d8428.png">
+</p>
+
+Though the model did manage to learn a rising trend and is not totally wrong.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/137901708-13a1cc36-80e4-448d-839d-5cd6ef674939.png">
+</p>
+
+But for this last forecast I don't think it's right.
+
 ## Project 2 - ARIMA
 
 In this second project we will try to get useful statistics from the data by turning it into a stationary serie.
