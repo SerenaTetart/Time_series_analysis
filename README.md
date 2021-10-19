@@ -82,6 +82,8 @@ Finally we calculate the noise by dividing the seasonal noise by the seasonal co
 
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end in order to predict the next 20 values of the time serie.
 
+LSTMs are great at learning from long-term dependencies on sequences of data, when made bidirectionnal they also train on a reversed copy of the input sequence, this can provide additional context to the network and result in faster and even fuller learning on the problem.
+
 Sadly the forecasts are quite imprecise, this is because there is a lot of noise and actions or cryptocurrencies price depends on a lot of factors that a time serie alone can not represent.
 
 <p align="center">
