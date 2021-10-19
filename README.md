@@ -66,7 +66,13 @@ Then we calculate the moving average based on a sliding window *L* :
 <img src="https://user-images.githubusercontent.com/65224852/137592003-189d5162-1830-44ca-a075-c6ab8d410f52.png">
 </p>
 
-The seasonality indicates that there is a rising trend toward january and june and a decreasing trend in between.
+The seasonality indicates that there is a rising trend toward January and June and a decreasing trend in between.
+
+Seasonality is the difference between the centered actual value and the trend:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/137872819-63cfd725-05e0-488e-9d87-b05a623443bd.PNG">
+</p>
 
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end in order to predict the next 20 values of the time serie.
 
