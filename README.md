@@ -5,7 +5,7 @@
 * [Requirements](#requirements)
 * [Project 1: Bitcoin Forecast with LSTM](#project-1---Bitcoin-Forecast-with-LSTM)
 * [Project 2: ARIMA](#Project-2---ARIMA)
-* [Project 3: Anomaly Detection](#Project-3---Anomaly-Detection)
+* [Project 3: Bitcoin forecast using multivariate time series](#Project-3---Bitcoin-forecast-using-multivariate-time-series)
 
 ## General info
 In this repository we will be learning how to analyse a time serie and forecast it's values.
@@ -20,7 +20,7 @@ Libraries:
 * Keras
 * Pandas
 
-## Project 1 - Bitcoin Forecast with LSTM
+## Project 1 - Bitcoin forecast with LSTM
 
 The dataset used is the market price everyday since 2014, I shared it in the repository.
 
@@ -84,6 +84,6 @@ In this second project we will try to get useful statistics from the data by tur
 
 A stationary serie is a serie that does not depend on time (just like the stationary Schrödinger Equation or TISE where the wave function can be expressed only with the spatial part)
 
-## Project 3 - Anomaly Detection
+## Project 3 - Bitcoin forecast using multivariate time series
 
-This third project aims to detect in a given time serie the anomalies using statisticals models and autoencoder.
+This third project aims to forecast the price of the Bitcoin using all the values in the dataset plus the values of others times series as well (such as Ethereum price).
