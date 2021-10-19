@@ -25,18 +25,18 @@ Libraries:
 The dataset used is the market price everyday since 2014, I shared it in the repository.
 
 A time serie is composed of 4 components:
-* <b>Level:</b> the baseline value for the series
+* <b>y:</b> the baseline value for the series
 * <b>Trend:</b> Linear increasing or decreasing behavior of the serie over time
 * <b>Seasonality:</b> Repeating patterns or cycles of behavior over time.
 * <b>Noise:</b> Variability in the observations that cannot be explained by the model
 
 The reunion of these 4 components is equal to the time serie, it can be additive if:
 
-<p align="center"> <b>y = level + trend + seasonality + noise</b> </p>
+<p align="center"> <b>y = trend + seasonality + noise</b> </p>
 
 or multiplicative if:
 
-<p align="center"> <b>y = level * trend * seasonality * noise</b> </p>
+<p align="center"> <b>y = trend * seasonality * noise</b> </p>
 
 In our case the time serie is multiplicative.
 
@@ -50,19 +50,11 @@ In our case the time serie is multiplicative.
 
 We can clearly see that the trend is constantly rising, with a peak toward 2021.
 
-The trend is a centered moving average, first we remove the mean by dividing each individual value by the series mean:
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/65224852/137590297-3f2141d4-e763-4cf6-b3d2-43e1639dd7b3.PNG">
-</p>
-
-Then we calculate the moving average based on a sliding window *L* :
+The Trend is calculated based on the moving average with a sliding window *L* :
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/137590562-a3c91a8c-3654-499a-b1d5-18b62245142f.PNG">
 </p>
-
-(statsmodels doesn't exactly do the same calculations, though I suspect the way I describe it to be better)
 
 <p align="center"> <b>Bitcoin's Seasonality since 2014</b>
 <img src="https://user-images.githubusercontent.com/65224852/137592003-189d5162-1830-44ca-a075-c6ab8d410f52.png">
@@ -70,7 +62,13 @@ Then we calculate the moving average based on a sliding window *L* :
 
 The seasonality indicates that there is a rising trend toward January and June and a decreasing trend in between.
 
-Seasonality is the difference between the centered actual value and the trend:
+In order to get the seasonality and the noise we need to refer to the multiplicative formula in the beginning:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/137880794-24879d5d-4e8b-45f7-bb43-b11e8fd6ea31.PNG">
+</p>
+
+Then in order to isolate the seasonality we calculate the moving average based on one year (could be one month) of our last formula:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/137873111-e6f5f9cc-d2b4-4247-93f8-63ca83aa2c78.PNG">
