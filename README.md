@@ -77,7 +77,7 @@ Then in order to isolate the seasonality we calculate the moving average based o
 Finally we calculate the noise by dividing the seasonal noise by the seasonal component:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65224852/137888304-2fd10819-c555-4ab0-8fc5-a073fcc52c31.PNG">
+<img src="https://user-images.githubusercontent.com/65224852/137888988-d0bca21d-7793-4600-aacc-31dcb7f9b144.PNG">
 </p>
 
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end in order to predict the next 20 values of the time serie.
