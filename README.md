@@ -62,11 +62,11 @@ Then we calculate the moving average based on a sliding window *L* :
 <img src="https://user-images.githubusercontent.com/65224852/137590562-a3c91a8c-3654-499a-b1d5-18b62245142f.PNG">
 </p>
 
+(statsmodels doesn't exactly do the same calculations, though I suspect the way I describe it to be better)
+
 <p align="center"> <b>Bitcoin's Seasonality since 2014</b>
 <img src="https://user-images.githubusercontent.com/65224852/137592003-189d5162-1830-44ca-a075-c6ab8d410f52.png">
 </p>
-
-(statsmodels doesn't exactly do the same calculations, though I suspect the way I describe it to be better)
 
 The seasonality indicates that there is a rising trend toward January and June and a decreasing trend in between.
 
