@@ -50,7 +50,6 @@ In our case the time serie is multiplicative.
 
 We can clearly see that the trend is constantly rising, with a peak toward 2021.
 
-(statsmodels doesn't exactly do the same calculations, though I suspect the way I describe it to be better)
 The trend is a centered moving average, first we remove the mean by dividing each individual value by the series mean:
 
 <p align="center">
@@ -66,6 +65,8 @@ Then we calculate the moving average based on a sliding window *L* :
 <p align="center"> <b>Bitcoin's Seasonality since 2014</b>
 <img src="https://user-images.githubusercontent.com/65224852/137592003-189d5162-1830-44ca-a075-c6ab8d410f52.png">
 </p>
+
+(statsmodels doesn't exactly do the same calculations, though I suspect the way I describe it to be better)
 
 The seasonality indicates that there is a rising trend toward January and June and a decreasing trend in between.
 
