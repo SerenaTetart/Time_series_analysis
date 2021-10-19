@@ -68,7 +68,7 @@ In order to get the seasonality and the noise we need to refer to the multiplica
 <img src="https://user-images.githubusercontent.com/65224852/137880794-24879d5d-4e8b-45f7-bb43-b11e8fd6ea31.PNG">
 </p>
 
-Then in order to isolate the seasonality we calculate the moving average based on one year (could be one month) of our last formula:
+Then in order to isolate the seasonality we calculate the moving average based on one year, L=365 (could be one month) of our last formula:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/137884804-207fd775-30ec-41a4-8a0e-2355c2eee62b.PNG">
