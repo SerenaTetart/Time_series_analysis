@@ -30,7 +30,7 @@ A time serie is composed of 4 components:
 * <b>Seasonality:</b> Repeating patterns or cycles of behavior over time.
 * <b>Noise:</b> Variability in the observations that cannot be explained by the model
 
-The reunion of these 4 components is equal to the time serie, it can be additive if:
+The reunion of these 3 components is equal to the time serie, it can be additive if:
 
 <p align="center"> <b>y = trend + seasonality + noise</b> </p>
 
