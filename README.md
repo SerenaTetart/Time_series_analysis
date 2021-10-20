@@ -24,7 +24,7 @@ Libraries:
 
 The dataset used is the market price everyday since 2014, I shared it in the repository.
 
-A time serie is composed of 4 components:
+A time serie is composed of 3 components:
 * <b>y:</b> the baseline value for the series
 * <b>Trend:</b> Linear increasing or decreasing behavior of the serie over time
 * <b>Seasonality:</b> Repeating patterns or cycles of behavior over time.
