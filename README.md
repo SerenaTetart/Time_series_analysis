@@ -84,7 +84,7 @@ The network is made of two layers of bidirectionnal LSTM units with a 20 dense a
 
 LSTMs are great at learning from long-term dependencies on sequences of data, when made bidirectionnal they also train on a reversed copy of the input sequence, this can provide additional context to the network and result in faster and even fuller learning on the problem.
 
-Sadly the forecasts are quite imprecise, this is because there is a lot of noises and actions or cryptocurrencies prices depends on a lot of factors that a time serie alone can not represent.
+Sadly the forecasts are quite imprecise, this is because there is a lot of noises and actions or cryptocurrencies price depends on a lot of factors that a time serie alone can not represent.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/137901683-21a6b4e1-601a-4a05-b384-7abe1c8d8428.png">
