@@ -8,7 +8,7 @@
 * [Project 3: Bitcoin forecasting with multivariate time series](#Project-3---Bitcoin-forecasting-with-multivariate-time-series)
 
 ## General info
-In this repository we will be learning how to analyse a time serie and forecast it's values.
+In this repository you'll learn how to analyse a time serie and forecast it's values.
 
 ## Requirements
 
