@@ -106,4 +106,4 @@ A stationary serie is a serie that does not depend on time (just like the statio
 
 ## Project 3 - Bitcoin forecasting with multivariate time series
 
-This third project aims to forecast the price of the Bitcoin using all the features in the dataset plus the values of others time series as well (such as Ethereum price).
+This third project aims to forecast the price of Bitcoin using all the features in the dataset plus the values of others time series as well (such as Ethereum price).
