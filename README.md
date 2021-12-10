@@ -102,7 +102,7 @@ But for this last forecast I don't think it's right.
 
 In this second project we will try to get useful statistics from the data by turning it into a stationary serie.
 
-A stationary serie is a serie that does not depend on time (just like the stationary Schrödinger Equation or TISE where the wave function can be expressed only with the spatial part)
+A stationary serie is a serie where the properties do not change over time. There are several methods to check the stationarity of a serie, we'll use the Augmented Dickey-Fuller test.
 
 ## Project 3 - Bitcoin forecasting with multivariate time series
 
