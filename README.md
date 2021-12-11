@@ -4,8 +4,7 @@
 * [General info](#general-info)
 * [Requirements](#requirements)
 * [Project 1: Bitcoin forecasting with LSTM](#project-1---Bitcoin-forecasting-with-LSTM)
-* [Project 2: ARIMA](#Project-2---ARIMA)
-* [Project 3: Bitcoin forecasting with multivariate time series](#Project-3---Bitcoin-forecasting-with-multivariate-time-series)
+* [Project 2: Bitcoin forecasting with multivariate time series](#Project-2---Bitcoin-forecasting-with-multivariate-time-series)
 
 ## General info
 In this repository you'll learn how to analyse a time serie and forecast it's values.
@@ -98,12 +97,6 @@ Though the model did manage to learn a rising trend and is not totally wrong.
 
 But for this last forecast I don't think it's right.
 
-## Project 2 - ARIMA
+## Project 2 - Bitcoin forecasting with multivariate time series
 
-In this second project we will try to get useful statistics from the data by turning it into a stationary serie.
-
-A stationary serie is a serie where the properties do not change over time. There are several methods to check the stationarity of a serie, we'll use the Augmented Dickey-Fuller test.
-
-## Project 3 - Bitcoin forecasting with multivariate time series
-
-This third project aims to forecast the price of Bitcoin using all the features in the dataset plus the values of others time series as well (such as Ethereum price).
+This third project aims to forecast the price of Bitcoin using the closing price and the closing price of other time series as well (such as Ethereum price).
