@@ -99,4 +99,4 @@ But for this last forecast I don't think it's right.
 
 ## Project 2 - Bitcoin forecasting with multivariate time series
 
-This third project aims to forecast the price of Bitcoin using the closing price and the closing price of other time series as well (such as Ethereum price).
+This second project aims to forecast the price of Bitcoin using the closing price and the closing price of other time series as well (such as Ethereum price).
