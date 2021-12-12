@@ -86,7 +86,7 @@ LSTMs are great at learning from long-term dependencies on sequences of data, wh
 Sadly the forecasts are quite imprecise, this is because there is a lot of noises and actions or cryptocurrencies price depends on a lot of factors that a time serie alone can not represent.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65224852/137901683-21a6b4e1-601a-4a05-b384-7abe1c8d8428.png">
+<img src="https://user-images.githubusercontent.com/65224852/145723484-b8a62815-4b56-4c92-938e-d56f63c681de.png">
 </p>
 
 Though the model did manage to learn a rising trend and is not totally wrong.
