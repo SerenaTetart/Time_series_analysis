@@ -64,7 +64,7 @@ The seasonality indicates that there is a rising trend toward January and June a
 In order to get the seasonality and the noise we need to refer to the multiplicative formula in the beginning:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65224852/137880794-24879d5d-4e8b-45f7-bb43-b11e8fd6ea31.PNG">
+<img src="https://user-images.githubusercontent.com/65224852/145714059-7e9d4876-8fc0-473c-9614-edd347a91158.png">
 </p>
 
 Then in order to isolate the seasonality we calculate the moving average based on one year, **L=365** (could be one month) of our last formula:
