@@ -13,8 +13,6 @@ Here we will try to forecast cryptocurrencies using only LSTM and multivariate t
 
 Because cryptocurrencies are highly volatile the results won't be good.
 
-Check the ipynb files for more details !
-
 ## Requirements
 
 The basic libraries for machine learning and deep learning 😃
