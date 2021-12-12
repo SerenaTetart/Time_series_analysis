@@ -99,7 +99,7 @@ This last forecast is wrong.
 
 ## Project 2 - BTC and ETH forecasting with multivariate time series
 
-This second project aims to forecast the price of Cryptocurrencies using all the features in the dataset, and combining two cryptocurrencies to see if the results are better.
+This second project aims to forecast the price of cryptocurrencies using all the features in the dataset, and combining two cryptocurrencies to see if the results are better.
 
 The LSTM overfits so quickly that we need to set the number of epochs to 12 (batch size also influence a lot the number of epochs required), furthermore if the number of features is too big we need to set the loss to a MSLE (mean squared logarithmic error) so that big differences count as much as little ones.
 
