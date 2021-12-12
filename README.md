@@ -21,7 +21,7 @@ Libraries:
 
 ## Project 1 - Bitcoin forecasting with LSTM
 
-The dataset used is the market price everyday since 2014, here we will be using the closing price, I shared it in the repository.
+The dataset used is the market price everyday since 2014, we will be using the closing price, I shared it in the repository.
 
 A time serie is composed of 3 components:
 * (<b>y:</b> the baseline value for the series)
