@@ -7,7 +7,7 @@
 * [Project 2: BTC and ETH forecasting with multivariate time series](#Project-2---BTC-and-ETH-forecasting-with-multivariate-time-series)
 
 ## General info
-In this repository you'll learn how to analyse a time serie and forecast it's values. We will try to forecast cryptocurrencies using only LSTM.
+In this repository you'll learn how to analyse a time serie and forecast it's values. In this case we will try to forecast cryptocurrencies using only LSTM.
 
 ## Requirements
 
