@@ -9,7 +9,9 @@
 ## General info
 In this repository you'll learn how to analyse a time serie and forecast it's values.
 
-Here we will try to forecast cryptocurrencies using only LSTM, because cryptocurrencies are highly volatile the results won't be good.
+Here we will try to forecast cryptocurrencies using only LSTM and multivariate time series.
+
+Because cryptocurrencies are highly volatile the results won't be good.
 
 Check the ipynb files for more details !
 
