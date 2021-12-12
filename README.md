@@ -101,6 +101,8 @@ But for this last forecast I don't think it's right.
 
 This second project aims to forecast the price of Bitcoin using the closing price and the closing price of other time series as well (such as Ethereum price).
 
+The LSTM overfits so quickly that we need to set the number of epochs to 12, furthermore if the number of features is too big we need to set the loss to a MSLE (mean squared logarithmic error) so that big differences count as much as little ones.
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/145723078-b9311f65-b83d-48d2-aa31-19d03077dd37.png">
 </p>
