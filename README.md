@@ -101,11 +101,11 @@ But for this last forecast I don't think it's right.
 
 This second project aims to forecast the price of Bitcoin using the closing price and the closing price of other time series as well (such as Ethereum price).
 
-<p align="center"> <b>Ethereum Price prediction (June 2021 to October 2021)</b>
+<p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/145723078-b9311f65-b83d-48d2-aa31-19d03077dd37.png">
 </p>
 
-<p align="center"> <b>Ethereum Price prediction</b>
+<p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/145723079-0a45d1d5-d48a-4e44-82c3-c4482b8769f0.png">
 </p>
 
