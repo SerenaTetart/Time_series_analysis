@@ -4,7 +4,7 @@
 * [General info](#general-info)
 * [Requirements](#requirements)
 * [Project 1: Bitcoin forecasting with LSTM](#project-1---Bitcoin-forecasting-with-LSTM)
-* [Project 2: Bitcoin forecasting with multivariate time series](#Project-2---Bitcoin-forecasting-with-multivariate-time-series)
+* [Project 2: BTC and ETH forecasting with multivariate time series](#Project-2---BTC-and-ETH-forecasting-with-multivariate-time-series)
 
 ## General info
 In this repository you'll learn how to analyse a time serie and forecast it's values.
