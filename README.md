@@ -112,3 +112,5 @@ The LSTM overfits so quickly that we need to set the number of epochs to 12 (bat
 </p>
 
 But nope this is still too bad.
+
+To conclude: predicting cryptocurrencies is not an easy matter because there are too much noise and factors to take into account.
