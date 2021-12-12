@@ -97,7 +97,7 @@ Though the model did manage to learn a rising trend and is not totally wrong.
 
 But for this last forecast I don't think it's right.
 
-## Project 2 - Bitcoin forecasting with multivariate time series
+## Project 2 - BTC and ETH forecasting with multivariate time series
 
 This second project aims to forecast the price of Bitcoin using the closing price and the closing price of other time series as well (such as Ethereum price).
 
