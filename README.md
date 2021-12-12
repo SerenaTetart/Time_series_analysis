@@ -101,4 +101,8 @@ But for this last forecast I don't think it's right.
 
 This second project aims to forecast the price of Bitcoin using the closing price and the closing price of other time series as well (such as Ethereum price).
 
+<p align="center"> <b>Ethereum prediction</b>
+<img src="https://user-images.githubusercontent.com/65224852/137589114-bf28c5be-3210-4ebe-b76a-25a5d44fc34f.png">
+</p>
+
 But nope this is still too bad.
