@@ -95,7 +95,7 @@ As we can see the data is very noisy, this time serie depends on a lot of factor
 
 ## Project 1 - Sales forecasting with ARIMA
 
-Before forecasting Cryptocurrencies we will forecast sales based on ARIMA which stands for ‘Auto Regressive Integrated Moving Average’.
+In this first project we will forecast sales based on ARIMA which stands for ‘Auto Regressive Integrated Moving Average’.
 
 ## Project 2 - Bitcoin forecasting with LSTM
 
