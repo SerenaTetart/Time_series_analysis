@@ -87,6 +87,8 @@ Finally we calculate the noise by dividing the seasonal noise by the seasonal co
 <img src="https://user-images.githubusercontent.com/65224852/151705528-f998011a-f8ec-4e25-942f-b0a868def041.png">
 </p>
 
+As we can see the data is very noisy, this time serie depends on a lot of factors.
+
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end in order to predict the next 20 values of the time serie.
 
 LSTMs are great at learning from long-term dependencies on sequences of data, when made bidirectionnal they also train on a reversed copy of the input sequence, this can provide additional context to the network and result in faster and even fuller learning on the problem.
