@@ -12,7 +12,7 @@ In this repository you'll learn how to analyse a time serie and forecast it's va
 
 Here we will try to forecast cryptocurrencies using only LSTM and multivariate time series, we'll also forecast sales with ARIMA in the last project.
 
-Because cryptocurrencies are highly volatile and doesn't follow a specific pattern the results won't be good.
+Because cryptocurrencies are highly volatile and doesn't follow a specific pattern the results won't be good for the first two projects.
 
 ## Requirements
 
