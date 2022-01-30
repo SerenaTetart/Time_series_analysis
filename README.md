@@ -123,3 +123,5 @@ The LSTM overfits so quickly that we need to set the number of epochs to 12 (bat
 </p>
 
 But nope this is still too bad.
+
+## Project 3 - Sales forecasting with ARIMA
