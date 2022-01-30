@@ -3,9 +3,10 @@
 ## Table of contents
 * [General info](#general-info)
 * [Requirements](#requirements)
-* [Project 1: Bitcoin forecasting with LSTM](#project-1---Bitcoin-forecasting-with-LSTM)
-* [Project 2: BTC and ETH forecasting with multivariate time series](#Project-2---BTC-and-ETH-forecasting-with-multivariate-time-series)
-* [Project 3: Sales forecasting with ARIMA](#project-3---Sales-forecasting-with-ARIMA)
+* [Introduction](#introduction---Quick-overview-of-time-series)
+* [Project 1: Sales forecasting with ARIMA](#project-1---Sales-forecasting-with-ARIMA)
+* [Project 2: Bitcoin forecasting with LSTM](#project-2---Bitcoin-forecasting-with-LSTM)
+* [Project 3: BTC and ETH forecasting with multivariate time series](#Project-3---BTC-and-ETH-forecasting-with-multivariate-time-series)
 
 ## General info
 In this repository you'll learn how to analyse a time serie and forecast it's values.
@@ -23,10 +24,12 @@ Libraries:
 * Tensorflow
 * Keras
 * Pandas
+* statsmodels
+* pmdarima
 
-## Project 1 - Bitcoin forecasting with LSTM
+## Introduction - Quick overview of time series
 
-The dataset used is the market price everyday since 2014, we will be using the closing price, I shared it in the repository.
+The dataset used is the Bitcoin's market price everyday since 2014.
 
 A time serie is composed of 3 components:
 * (<b>y:</b> the baseline value for the series)
@@ -90,6 +93,14 @@ Finally we calculate the noise by dividing the seasonal noise by the seasonal co
 
 As we can see the data is very noisy, this time serie depends on a lot of factors.
 
+## Project 1 - Sales forecasting with ARIMA
+
+Before forecasting Cryptocurrencies we will forecast sales based on ARIMA which stands for ‘Auto Regressive Integrated Moving Average’.
+
+## Project 2 - Bitcoin forecasting with LSTM
+
+For this project we will use the closing price only of Bitcoin.
+
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end in order to predict the next 20 values of the time serie.
 
 LSTMs are great at learning from long-term dependencies on sequences of data, when made bidirectionnal they also train on a reversed copy of the input sequence, this can provide additional context to the network and result in faster and even fuller learning on the problem.
@@ -108,7 +119,7 @@ Though the model did manage to learn a rising trend and is not totally wrong.
 
 This last forecast is wrong.
 
-## Project 2 - BTC and ETH forecasting with multivariate time series
+## Project 3 - BTC and ETH forecasting with multivariate time series
 
 This second project aims to forecast the price of cryptocurrencies using all the features in the dataset, and combining two cryptocurrencies to see if the results are better.
 
@@ -123,5 +134,3 @@ The LSTM overfits so quickly that we need to set the number of epochs to 12 (bat
 </p>
 
 But nope this is still too bad.
-
-## Project 3 - Sales forecasting with ARIMA
