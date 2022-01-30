@@ -99,7 +99,7 @@ Before forecasting Cryptocurrencies we will forecast sales based on ARIMA which 
 
 ## Project 2 - Bitcoin forecasting with LSTM
 
-For this project we will use the closing price only of Bitcoin.
+For this project we'll use as dataset Bitcoin's closing market price everyday since 2014.
 
 The network is made of two layers of bidirectionnal LSTM units with a 20 dense at the end in order to predict the next 20 values of the time serie.
 
