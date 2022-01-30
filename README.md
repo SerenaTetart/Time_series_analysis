@@ -29,7 +29,7 @@ Libraries:
 
 ## Introduction - Quick overview of time series
 
-For the purpose of this introduction we'll use as dataset the Bitcoin's market price everyday since 2014.
+For the purpose of this introduction we'll use as dataset Bitcoin's closing market price everyday since 2014.
 
 A time serie is composed of 3 components:
 * (<b>y:</b> the baseline value for the series)
