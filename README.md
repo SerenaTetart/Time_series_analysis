@@ -133,6 +133,12 @@ Finally we plot the forecasts:
 <img src="https://user-images.githubusercontent.com/65224852/151909735-3cece8d4-4862-4873-8230-7278d437c24d.png">
 </p>
 
+Yes... It's a straight line because there is no "trend" or "seasonality" in our data !
+
+ARIMA is useful only in certain cases where the time serie has a "trend" or a "seasonality", in this case it will only predict the mean of the time serie which result in a straight line.
+
+Furthermore we use ARIMA for short-term forecasts, long term forecasts will only result in a straight line too.
+
 ## Project 2 - Bitcoin forecasting with LSTM
 
 For this project we'll use as dataset Bitcoin's closing market price everyday since 2014.
