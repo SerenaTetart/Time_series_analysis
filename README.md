@@ -119,9 +119,19 @@ We won't go into full details, but the core ideas on how to find these parameter
 <img src="https://user-images.githubusercontent.com/65224852/151908925-a94c7e72-f184-4760-b164-8661f97c0d22.png">
 </p>
 
-here we can see that these series are already stationary thanks to the autocorelation plot and the dickey–fuller test, they both have p < 0.05.
+here we can see that these series are already stationary thanks to the autocorrelation plot and the dickey–fuller test, they both have p < 0.05.
 
 So d = 0 and q = 1 because the lag 1 is way above the significance line.
+
+We then plot the Partial Autocorrelation plot and see that p = 1.
+
+To finish we make the model with a library called "pmdarima" which will try different combination of these parameters in order to find the best model.
+
+Finally we plot the forecasts:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/151909735-3cece8d4-4862-4873-8230-7278d437c24d.png">
+</p>
 
 ## Project 2 - Bitcoin forecasting with LSTM
 
