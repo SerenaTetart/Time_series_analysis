@@ -95,7 +95,13 @@ As we can see the data is very noisy, this time serie depends on a lot of factor
 
 ## Project 1 - Sales forecasting with ARIMA
 
-In this first project we will forecast sales with the model ARIMA which stands for ‘Auto Regressive Integrated Moving Average’.
+In this first project we will forecast the sales and number of orders of a retail store with the model ARIMA which stands for ‘Auto Regressive Integrated Moving Average’.
+
+The dataset is from Kaggle </a href='https://www.kaggle.com/rohitsahoo/sales-forecasting'>Superstore Sales Dataset</a>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/151908222-69764ca2-3d42-4663-897c-aa8b249f1e02.png">
+</p>
 
 ## Project 2 - Bitcoin forecasting with LSTM
 
