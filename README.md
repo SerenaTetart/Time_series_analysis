@@ -125,6 +125,10 @@ So d = 0 and q = 1 because the lag 1 is way above the significance line.
 
 We then plot the Partial Autocorrelation plot and see that p = 1.
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/151910262-78aae9b5-fe2c-4eee-ba2f-bff8d56c61f6.png">
+</p>
+
 To finish we make the model with a library called "pmdarima" which will try different combination of these parameters in order to find the best model.
 
 Finally we plot the forecasts:
