@@ -130,7 +130,7 @@ To finish we make the model with a library called "pmdarima" which will try diff
 Finally we plot the forecasts:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65224852/151909735-3cece8d4-4862-4873-8230-7278d437c24d.png">
+<img src="https://user-images.githubusercontent.com/65224852/151910058-b4fc6b14-b6ac-4fad-ab24-0dbb0b33fa69.png">
 </p>
 
 Yes... It's a straight line because there is no "trend" or "seasonality" in our data !
