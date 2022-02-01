@@ -103,6 +103,18 @@ The dataset is from Kaggle: <a href='https://www.kaggle.com/rohitsahoo/sales-for
 <img src="https://user-images.githubusercontent.com/65224852/151908222-69764ca2-3d42-4663-897c-aa8b249f1e02.png">
 </p>
 
+*We can notice that the number of orders and the sales income are not correlated.*
+
+In order to use ARIMA we need to make the time serie stationary, meaning the serie won't depend on time anymore, by differencing it.
+
+An ARIMA model is defined by 3 terms: p, d, q where:
+
+* p is the order of the Auto Regressive term
+* q is the order of the Moving Average term
+* d is the number of differencing required to make the time serie stationary
+
+to explore more in details these notions check the .ipynb file.
+
 ## Project 2 - Bitcoin forecasting with LSTM
 
 For this project we'll use as dataset Bitcoin's closing market price everyday since 2014.
