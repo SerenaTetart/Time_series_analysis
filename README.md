@@ -113,11 +113,15 @@ An ARIMA model is defined by 3 terms: p, d, q where:
 * q is the order of the Moving Average term
 * d is the number of differencing required to make the time serie stationary
 
+We won't go into full details, but the core ideas on how to find these parameters will be shown.
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/151908925-a94c7e72-f184-4760-b164-8661f97c0d22.png">
 </p>
 
 here we can see that these series are already stationary thanks to the autocorelation plot and the dickey–fuller test, they both have p < 0.05.
+
+So d = 0 and q = 1 because the lag 1 is way above the significance line.
 
 ## Project 2 - Bitcoin forecasting with LSTM
 
