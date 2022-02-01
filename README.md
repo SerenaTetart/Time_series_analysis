@@ -133,6 +133,10 @@ Finally we plot the forecasts:
 <img src="https://user-images.githubusercontent.com/65224852/151910058-b4fc6b14-b6ac-4fad-ab24-0dbb0b33fa69.png">
 </p>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/151910119-73761081-0dbe-4489-b4e1-395143153dfc.png">
+</p>
+
 Yes... It's a straight line because there is no "trend" or "seasonality" in our data !
 
 ARIMA is useful only in certain cases where the time serie has a "trend" or a "seasonality", in this case it will only predict the mean of the time serie which result in a straight line.
