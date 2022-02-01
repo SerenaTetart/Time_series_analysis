@@ -117,7 +117,7 @@ An ARIMA model is defined by 3 terms: p, d, q where:
 <img src="https://user-images.githubusercontent.com/65224852/151908925-a94c7e72-f184-4760-b164-8661f97c0d22.png">
 </p>
 
-here we can see that these series are already stationary.
+here we can see that these series are already stationary, they both have p < 0.05.
 
 ## Project 2 - Bitcoin forecasting with LSTM
 
