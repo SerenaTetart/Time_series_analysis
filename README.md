@@ -167,8 +167,6 @@ Though the model did manage to learn a rising trend and is not totally wrong.
 <img src="https://user-images.githubusercontent.com/65224852/137901708-13a1cc36-80e4-448d-839d-5cd6ef674939.png">
 </p>
 
-This last forecast is wrong.
-
 ## Project 3 - BTC and ETH forecasting with multivariate time series
 
 This third project aims to forecast the price of cryptocurrencies using all the features in the dataset, and combining two cryptocurrencies to see if the results are better.
