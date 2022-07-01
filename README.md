@@ -2,7 +2,6 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Requirements](#requirements)
 * [Introduction](#introduction---Quick-overview-of-time-series)
 * [Project 1: Sales forecasting with ARIMA](#project-1---Sales-forecasting-with-ARIMA)
 * [Project 2: Bitcoin forecasting with LSTM](#project-2---Bitcoin-forecasting-with-LSTM)
@@ -14,18 +13,6 @@ In this repository you'll learn how to analyse a time serie and forecast it's va
 Here we will try to forecast sales and cryptocurrencies using ARIMA, LSTM and multivariate time series.
 
 Because cryptocurrencies are highly volatile and doesn't follow a specific pattern the results won't be good for the last two projects.
-
-## Requirements
-
-The basic libraries for machine learning and deep learning 😃
-
-Libraries:
-* Numpy
-* Tensorflow
-* Keras
-* Pandas
-* statsmodels
-* pmdarima
 
 ## Introduction - Quick overview of time series
 
